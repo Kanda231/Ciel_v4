@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.modmenu">
+    <application
+        android:label="ModMenuApp"
+        android:hasCode="false">
+        <activity android:name="android.app.NativeActivity">
+            <meta-data android:name="android.app.lib_name"
+                android:value="modmenu" />
+        </activity>
+    </application>
+</manifest>
